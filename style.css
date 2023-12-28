@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+
+
+
+}
+
+.tilted-image-container {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+   
+  
+    width: 100vh; 
+    height: 100vh;
+
+
+
+}
+
+.tilted-image {
+    width: 40%;
+    height: 40%;
+
+    transition: transform 0.1s ease-out;
+}
